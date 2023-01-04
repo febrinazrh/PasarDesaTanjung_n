@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PembayaranActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/totalpembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Data1"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary3"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputBayar"
+        android:textSize="20dp"
+        android:background="@color/colorPrimary3"
+        android:textColor="@color/black"
+        android:layout_below="@+id/totalpembayaran"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/order_intro_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputBayar"
+        android:layout_marginTop="@dimen/text_margin_top"
+        android:layout_marginBottom="@dimen/text_margin_bottom"
+        android:background="@color/colorPrimary3"
+        android:text="@string/choose_delivery_method"
+        android:textColor="@color/black"
+        android:textSize="@dimen/intro_text_size" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_intro_text"
+        android:layout_marginTop="94dp"
+        android:background="@color/colorPrimary3"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/sameday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/same_day_messenger_service"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/nextday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/next_day_ground_delivery"
+            android:textColor="@color/black" />
+
+        <RadioButton
+            android:id="@+id/pickup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/pick_up"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/Selesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="28dp"
+            android:onClick="Selesai"
+            android:text="Selesai" />
+
+        <TextView
+            android:id="@+id/kembalian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_bayar"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

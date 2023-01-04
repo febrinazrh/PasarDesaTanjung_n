@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PasarDesaTanjung</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="user_register_now">Already Have an Account? Login Now</string>
+    <string name="action_contact">Contact</string>
+    <string name="action_order">Order</string>
+    <string name="action_status">Status</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="call_center">Call Center</string>
+    <string name="sms_center">SMS Center</string>
+    <string name="maps">Lokasi</string>
+    <string name="update">User Setting</string>
+    <string name="logout">Log out</string>
+    <string name="total">Total Harga</string>
+    <string name="choose_delivery_method">Pilih Pengiriman :</string>
+    <string name="same_day_messenger_service">Dikirim hari yang sama </string>
+    <string name="next_day_ground_delivery">Dikirim hari berikutnya</string>
+    <string name="chosen">Chosen: </string>
+    <string name="nothing_clicked">onRadioButtonClicked: Nothing clicked</string>
+    <string name="pick_up">Pick up</string>
+
+</resources>

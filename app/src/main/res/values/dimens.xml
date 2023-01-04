@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_reguler">8dp</dimen>
+    <dimen name="text_heading">20dp</dimen>
+    <dimen name="padding_wide">8dp</dimen>
+    <dimen name="text_margin_top">10dp</dimen>
+    <dimen name="text_margin_bottom">10dp</dimen>
+    <dimen name="intro_text_size">20dp</dimen>
+</resources>

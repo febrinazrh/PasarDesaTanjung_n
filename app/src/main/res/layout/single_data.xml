@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#00FFFF"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="8dp"
+    android:padding="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgvolley"
+        android:layout_marginTop="8dp"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="hitung"
+        android:src="@mipmap/ic_launcher">
+
+    </com.android.volley.toolbox.NetworkImageView>
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/txtjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:id="@+id/txtsatuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satuan Barang"/>
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:id="@+id/txtharga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harga Barang"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
